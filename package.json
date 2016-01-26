@@ -1,0 +1,15 @@
+{
+  "name": "hwteabot",
+  "version": "0.0.0",
+  "description": "A bot to arrange and manage tea rounds at HeathWallace",
+  "main": "lib/hwteabot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morena Fiore-Kirby",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "slackbots": "~0.5.1",
+    "sqlite3": "~3.1.1"
+  }
+}
