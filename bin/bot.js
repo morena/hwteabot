@@ -1,11 +1,11 @@
 'use strict';
 
-var HWteaBot = require("../lib/hwteabot"),
+var TeaBot = require("../lib/teabot"),
 	token = process.env.BOT_API_KEY,
 	//dbPath = process.env.BOT_DB_PATH,
 	name = process.env.BOT_NAME;
 
-var hwteabot = new HWteaBot({
+var hwteabot = new TeaBot({
 	token : token,
 	//dbPath : dbPath,
 	name : name

@@ -1,15 +1,15 @@
 {
-  "name": "hwteabot",
+  "name": "teabot",
   "version": "0.0.0",
-  "description": "A bot to arrange and manage tea rounds at HeathWallace",
-  "main": "lib/hwteabot.js",
+  "description": "A bot to arrange and manage tea rounds at your office",
+  "main": "lib/teabot.js",
   "scripts": {
   	"start": "node bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/morena/hwteabot"
+    "url": "https://github.com/morena/teabot"
   },
   "author": "Morena Fiore-Kirby",
   "license": "BSD-2-Clause",
