@@ -5,10 +5,10 @@ var TeaBot = require("../lib/teabot"),
 	//dbPath = process.env.BOT_DB_PATH,
 	name = process.env.BOT_NAME;
 
-var hwteabot = new TeaBot({
+var teabot = new TeaBot({
 	token : token,
 	//dbPath : dbPath,
 	name : name
 });
 
-hwteabot.run();
+teabot.run();
